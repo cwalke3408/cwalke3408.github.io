@@ -1,8 +1,126 @@
----
-layout: default
-title: Hank Quinlan, Horrible Cop
----
-<div class="blurb">
-	<h1>Hi there, I'm Hank Quinlan!</h1>
-	<p>I'm best known as the horrible cop from <em>A Touch of Evil</em> Don't trust me. <a href="/about">Read more about my life...</a></p>
-</div><!-- /.blurb -->
+<!DOCTYPE html>
+	<html>
+		<head>
+			<!-- link to main stylesheet -->
+			<link rel="stylesheet" type="text/css" href="/css/main.css">
+			
+			
+<!-- Header Button -->
+  <ul>
+    <li style="font-family: Kaushan Script" id="title">Christian Portfio</li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#projs">Projects</a></li>
+    <li><a href="#senior">Senior Projects</a></li>
+    <li><a href="#aboutMe">Bio</a></li>
+  </ul>
+  
+</head>
+  
+<body>
+  <div class="container" id="backdrop">
+
+    
+    <div>
+      <div class="row">
+        <div class="col" id="aboutMe">
+          <!-- About ME -->
+              <h1 style="padding-top: 60px;"> Welcome </h1>
+          <p>Relaxing, drinking coffee and writing code is what I do, with the occasional break to play Disc Golf or Rocket League.  I love strategizing and solving problems which is why I like to code.  I have developed systems such as embedded, data-structures, parallel, and memory management mostly in C while attending University of Clemson and graduating with a bachelors in Computer Engineer.  Right now I am just playing around with some front-end developing and using projects, daily Katas from codewars.com, and meetups to sharping my skills in JavaScript and HTML/CSS.</p>  
+        </div>
+        <div class="col" id="myPic">
+          <!-- Picture on the side -->
+        </div>
+      </div>
+    </div>
+
+
+<!-- Senior Design Section -->
+    <div id="senior">
+      <h2  class="row section-title">Senior Design Projects </h2>        
+      <div class="row">
+        <div class="col" id="senior1">
+          <h3 class="subSection-title">Wack-O-Mole</h3>
+          
+          <iframe width="500" height="315" 
+                   src="https://www.youtube.com/embed/j8heINkawng?rel=0&amp;controls=0"frameborder="0" allowfullscreen>       
+          </iframe>
+          <a class="btn btn-primary" data-toggle="collapse" href="#collapseSenior1" aria-expanded="false" aria-controls="collapseSenior1">
+            More About Wack-O-Mole
+          </a>          
+        </div>
+        <div class="col" id="senior2">
+          <h3 class="subSection-title"> Visual Inspection Unit </h3>
+         <iframe width="560" height="315" 
+            src="https://www.youtube.com/embed/qzwHqC4O0aY?rel=0&amp;controls=0" frameborder="0" allowfullscreen>        
+          </iframe>
+          <a class="btn btn-primary" data-toggle="collapse"  href="#collapseSenior2" aria-expanded="false" aria-controls="collapseSenior2">
+            More About Visaul Inspection Unit
+          </a>          
+        </div>       
+      </div>
+    </div>
+   
+    <div class="collapse" id="collapseSenior1">
+      <div class="card card-block about-project">
+        <a href="http://clinduf.people.clemson.edu/ECE4950/Documents/DesignDetails.pdf">Design Details</a>
+        <a href="http://clinduf.people.clemson.edu/ECE4950/index.html"> Project Website </a>
+      </div>
+    </div>
+    <div class="collapse" id="collapseSenior2">
+      <div class="card card-block about-project">
+        This project, Visual Inspection Unit, was designed to have a collaborative team of Electrical and Computer Engineering students at Clemson University develop an autonomous inspection robot capable of identifying holes on a provided surface. Specifically used in this application to find holes in an airplane hull cut-out.  Our team's design, affectionately named "Rover,"  is featured in this video and a synopsis is provided below.  
+    <br><br>
+    Presented a point of reference to use as an origin and define an x-y plane, the unit traverses the surface in search of the holes.  The identified holes are image captured, measured for diameter and then positioned on a map showcased on a Graphical User Interface (GUI).  Each hole is logged in a file which is easily accessed on the user-friendly GUI.  The GUI initializes two main functions for the surface probe, "Sweep" and "Inspect."  Sweep finds the r covering the entire surface, while inspect is directed towards a specific point.  The system is able to read in .csv files to compare measured values and locations against specification values and positions.
+    <br> <br>
+    Mechanics and Hardware:
+    Robot uses an independently powered 4WD Mecanum wheel system allowing for omni-directional movement, requiring 12-16 Vdc. 
+    Computer processing through a Raspberry Pi accompanied by Arduino and Alamode, and image capture through a Raspberry Pi camera module with serial input connection to the processor.  
+    <br> <br>
+    Four Ultra-Sonic sensors were used for edge detection.
+    Two HP PS2 optical mice were used to assist in system odometry.
+      </div>
+    </div>   
+    
+    <hr>
+<!-- Projects -->
+
+    <div id="projs">
+      <h2  class="row section-title">Projects</h2>
+      <div class="row">
+        <div class="col" id="proj1">
+          <p data-height="300" data-theme-id="dark" data-slug-hash="QqMaMr" data-default-tab="result" data-user="cwalke3408" data-embed-version="2" data-pen-title="Weather App" data-preview="true" class="codepen">See the Pen 
+            <a href="https://codepen.io/cwalke3408/pen/QqMaMr/">Weather App</a> by Christian Walker
+           (<a href="https://codepen.io/cwalke3408">@cwalke3408</a>) on 
+            <a href="https://codepen.io">CodePen</a><div class=""></div>
+          </p>
+          <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+        </div>
+        <div class="col" id="proj2">
+          <p data-height="300" data-theme-id="0" data-slug-hash="EwGeZQ" data-default-tab="result" data-user="cwalke3408" data-embed-version="2" data-pen-title="Playing with Wiki Api " data-preview="true" class="codepen">See the Pen 
+            <a href="https://codepen.io/cwalke3408/pen/EwGeZQ/">Playing with Wiki Api </a> by Christian Walker
+            (<a href="https://codepen.io/cwalke3408">@cwalke3408</a>) on 
+            <a href="https://codepen.io">CodePen</a>.
+          </p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+        </div>
+      </div>
+    </div>
+  
+<!-- Contact ME -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  
+  </div> <!-- end backdrop -->
+</body>
+
+<footer align="center">
+  <h2 style="align:center"> Look can find me on</h2> 
+    <div class="row justify-content-center">
+        <div class="col-8">
+        <a href="https://github.com/cwalke3408" class="fa fa-github"></a>
+        <a href="https://codepen.io/dashboard/" class="fa fa-codepen"></a>
+        <a href="https://www.linkedin.com/in/christian-walker-29048a120/" class="fa fa-linkedin"></a>
+      </div>
+   </div>
+</footer>		
+	</html>
