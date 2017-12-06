@@ -6,7 +6,6 @@ body{
 }
 
 #backdrop{
-  background:;
   width: 100%;
   right: 10px;
   opacity: 1;
@@ -16,9 +15,10 @@ body{
   background: black;
   color: white;
   opacity: .8;
+  padding-left: 50px;
 }
 
-#senior{ 
+#senior{
 }
 .section-title{
   background: white;
@@ -40,6 +40,10 @@ body{
   background-color: black;
   color: white;
   opacity: .85;
+}
+
+.proj{
+    /*min-width: 200px;*/
 }
 
 .myContact{
@@ -83,7 +87,7 @@ ul{
   z-index: 1;
 }
 
-/* Header */ 
+/* Header */
 li{
   display: inline;
   float: right;
@@ -92,14 +96,14 @@ li{
 li a{
   color: ;
   display: block;
-  paddingL 6px;
+  padding: 6px;
   text-align: center;
 }
 
 li a:hover{
   background-color: white;
   height: 100%;
-  padding: 8px;  
+  padding: 8px;
 }
 
 #title{
@@ -141,7 +145,7 @@ footer{
   padding: 20px;
 }
 h1, h2, h3{
-  font-family: Abril Fatface;
+  font-family: Abel;
 }
 p{
   font-family: Abel;
